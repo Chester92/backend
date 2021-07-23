@@ -11,6 +11,7 @@ class ModeloController extends Controller
     {
         $modelos = Modelo::all();
         return $modelos;
+
     }
 
     public function store(Request $request)
